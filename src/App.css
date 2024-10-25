@@ -1,0 +1,30 @@
+div.produkt{
+  border: 1px black solid;
+  width: 300px;
+  height: 450px;
+  margin: 15px;
+  padding: 5px;
+  display: inline-block;
+  width: 30%;
+}
+div.produkt:hover{
+  box-shadow: 0px 0px 80px 16px rgba(66, 68, 90, 1); 
+}
+img#zdjecie{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 250px;
+
+}
+#nazwa{
+  text-align: center;
+}
+#cena{
+  font-weight: bold;
+  text-align: right;
+} 
+#ocena{
+  color: gray;
+}
